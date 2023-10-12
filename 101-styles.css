@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,600;0,700;1,500&display=swap");
+
+/** GLOBAL **/
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+a {
+  background-color: transparent;
+}
+
+/* Header */
+.header-container {
+  padding: 27px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  background-image: url("images/headphones_hero_1.jpg");
+  height: 100vh;
+  width: 100%;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  width: 255px;
+  height: 15px;
+}
+
+.navbar-menu ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar-menu ul li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.navbar-menu ul li a:hover {
+  color: #ff6565;
+}
+
+.hero {
+  color: white;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+}
+
+.hero-text p,
+.text p {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.button a {
+  background-color: #ff6565;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.button a:hover {
+  box-shadow: rgba(0, 0, 0, 0) 0px 5px 15px;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+/** MAIN **/
+
+.heading h1 {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #071629;
+  padding-top: 30px;
+}
+
+.heading p {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #071629;
+  width: 637px;
+  height: 104px;
+  margin: auto;
+}
+
+.icon-part {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.icon-part ul {
+  margin-top: 100px;
+  align-items: center;
+  list-style: none;
+}
+
+.icon-part h2 {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #071629;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.icon-part p {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  width: 207px;
+  height: 52px;
+  align-items: center;
+}
+
+.score {
+  background-image: url("images/background.png");
+  height: 90vh;
+  width: 100%;
+}
+
+.result h1 {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 32px;
+  line-height: 37.5px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 150px;
+}
+
+.result p {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  width: 637px;
+  height: 104px;
+  margin: auto;
+}
+
+.dot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot ul {
+  list-style: none;
+}
+
+.contact h1 {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 32px;
+  line-height: 37.5px;
+  text-align: center;
+  color: #071629;
+  padding-top: 50px;
+}
+
+form {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: bold;
+  color: #071629;
+}
+
+form .user-details .input-box {
+  margin-bottom: 15px;
+  width: calc(100% / 2-20px);
+  text-align: center;
+}
+
+.user-details .input-box .details {
+  display: block;
+  font-weight: 500px;
+  margin-bottom: 5px;
+}
+
+.user-details .input-box input {
+  height: 45px;
+  width: 40%;
+  outline: 0;
+  border: 0;
+  border-bottom: 2px solid black;
+  background: transparent;
+  padding-left: 15px;
+  font-size: 16px;
+  border-right-width: 2px;
+  transition: all 0.3s ease;
+}
+
+form .button {
+  height: 45px;
+  margin: 45px 0;
+  text-align: center;
+}
+
+form .button input {
+  height: 100%;
+  width: 15%;
+  outline: none;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  background: #ff6565;
+  transition: 0.5s ease;
+}
+
+form .button input:hover {
+  cursor: pointer;
+  background: linear-gradient(-135deg, #e6e471, #da4653);
+}
+
+.end-part {
+  background-image: url("images/footer_background.png");
+  height: 20vh;
+  width: 100%;
+}
+
+.end-part p {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15.08px;
+  color: #ffffff;
+  opacity: 35.17%;
+  width: 98px;
+  height: 15px;
+  margin: auto;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  line-height: 90px;
+  transform: scale(0.6);
+  transition: 0.5s;
+}
+
+.app-icon {
+  transition: 0.5s;
+}
+
+.app-icon:hover {
+  cursor: pointer;
+  transform: scale(0.6) translateY(-15px);
+}
